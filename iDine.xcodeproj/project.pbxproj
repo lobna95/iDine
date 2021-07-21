@@ -17,6 +17,10 @@
 		BC3A7F9F26A41DA10022C9BF /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = BC3A7F9E26A41DA10022C9BF /* menu.json */; };
 		BC3A7FA126A429DD0022C9BF /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A7FA026A429DD0022C9BF /* ItemRow.swift */; };
 		BC3A7FA326A4312F0022C9BF /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC3A7FA226A4312F0022C9BF /* ItemDetail.swift */; };
+		BCA4815926A4796300822C86 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4815826A4796300822C86 /* OrderView.swift */; };
+		BCA4815B26A47B3700822C86 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4815A26A47B3700822C86 /* MainView.swift */; };
+		BCA4815D26A480BD00822C86 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4815C26A480BD00822C86 /* CheckoutView.swift */; };
+		BCA4815F26A4933400822C86 /* FavoriteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCA4815E26A4933400822C86 /* FavoriteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		BC3A7F9E26A41DA10022C9BF /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = menu.json; sourceTree = "<group>"; };
 		BC3A7FA026A429DD0022C9BF /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		BC3A7FA226A4312F0022C9BF /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		BCA4815826A4796300822C86 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		BCA4815A26A47B3700822C86 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BCA4815C26A480BD00822C86 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
+		BCA4815E26A4933400822C86 /* FavoriteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +76,10 @@
 				BC3A7F8926A41D090022C9BF /* iDineApp.swift */,
 				BC3A7F8B26A41D090022C9BF /* ContentView.swift */,
 				BC3A7FA226A4312F0022C9BF /* ItemDetail.swift */,
+				BCA4815826A4796300822C86 /* OrderView.swift */,
+				BCA4815C26A480BD00822C86 /* CheckoutView.swift */,
+				BCA4815A26A47B3700822C86 /* MainView.swift */,
+				BCA4815E26A4933400822C86 /* FavoriteView.swift */,
 				BC3A7FA026A429DD0022C9BF /* ItemRow.swift */,
 				BC3A7F9A26A41D890022C9BF /* Menu.swift */,
 				BC3A7F9B26A41D890022C9BF /* Order.swift */,
@@ -158,7 +170,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC3A7FA326A4312F0022C9BF /* ItemDetail.swift in Sources */,
+				BCA4815B26A47B3700822C86 /* MainView.swift in Sources */,
+				BCA4815D26A480BD00822C86 /* CheckoutView.swift in Sources */,
+				BCA4815926A4796300822C86 /* OrderView.swift in Sources */,
 				BC3A7F8C26A41D090022C9BF /* ContentView.swift in Sources */,
+				BCA4815F26A4933400822C86 /* FavoriteView.swift in Sources */,
 				BC3A7F8A26A41D090022C9BF /* iDineApp.swift in Sources */,
 				BC3A7F9D26A41D890022C9BF /* Order.swift in Sources */,
 				BC3A7FA126A429DD0022C9BF /* ItemRow.swift in Sources */,

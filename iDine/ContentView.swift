@@ -17,7 +17,6 @@ struct ContentView: View {
                         ForEach(section.items) {item in
                             
                             NavigationLink(destination: ItemDetail(item: item)) {
-                                // existing contents…
                                 ItemRow(item: item)
                             }
                         }
